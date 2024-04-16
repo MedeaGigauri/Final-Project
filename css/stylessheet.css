@@ -14,7 +14,7 @@ header{
 }
 .logo{
    width: 150px; 
-   height: 50px;
+   height: 100px;
    cursor: pointer;
 }
 .nav-list{
@@ -33,7 +33,7 @@ header{
 .about-me{
     max-width: 1280px;
     width: 100%;
-    height: 400px;
+    min-height: 400px;
     margin: 100px auto;
     display: flex;
     justify-content: space-between;
@@ -127,14 +127,19 @@ footer nav ul li a{
     text-decoration: none;
     color: black;
 }
-footer h5{
+.enter-email{
     margin-bottom: 20px;
+}
+.enter-email-500px{
+    display: none;
 }
 .input{
     outline: none;
     opacity: 0.8;
     width: 270px;
     height: 30px;
+    border-radius: 8px;
+    border: none;
 }
 .submit-btn{
     width: 80px;
@@ -164,67 +169,4 @@ footer h5{
 }
 .instagram{
     margin-left: 10px;
-}
-
-
-@media (max-width:768px) {
-    header{
-       background-color: blue;
-       width: 100%;
-    }
-    .logo{
-        width: 200px;
-        height: 100px;
-    }
-    .nav-list{
-        display: none;
-    }
-    .burger-menu{
-        display: block;
-        width: 110px;
-        height: 50px;
-        cursor: pointer;
-    }
-    .about-me{
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    .text-wrapper p{
-        margin: 20px auto;
-    }
-    .concerts{
-        width: 100%;
-    }
-    .beyonce-section{
-        flex-direction: column;
-    }
-    .section-titles{
-        margin-top: 450px;
-    }
-    .beyonce-section p{
-        width: 650px;
-        text-align: center;
-        margin: 20px auto;
-    }
-    .renaissance-img{
-        width: 400px;
-        height: 550px;
-        margin: 0px auto;
-    }
-    .bruno-mars-section{
-       flex-direction: column;
-       border: 2px solid red;
-    }
-    .bruno-mars-img{
-        width: 350px;
-        height: 350px;
-    }
-    .bruno-mars-section p{
-        width: 650px;
-        text-align: center;
-        margin: 20px auto;
-}
-    .bruno-mars-section h3{
-        /* margin-top: 0px; */
-    }
 }
