@@ -41,7 +41,7 @@ header{
 }
 .text-wrapper{
     width: 650px;
-    height: 400px;
+    min-height: 400px;
 }
 .text-wrapper h1{
     margin-top: 50px;
