@@ -1,225 +1,229 @@
-@media (max-width:768px) {
-    header{
-       width: 100%;
-       padding: 10px 50px;
-    }
-    .logo{
-        width: 85px;
-        height: 100px;
-    }
-    .nav-list{
-        display: none;
-    }
-    .burger-menu{
-        display: block;
-        width: 110px;
-        height: 50px;
-        cursor: pointer;
-    }
-    .text-wrapper h1{
-        margin: 0px auto 30px auto;
-    }
-    .about-me{
-        flex-direction: column;
-    }
-    .text-wrapper p{
-        margin: 20px auto;
-        text-align: center;
-    }
-    .concerts{
-        width: 100%;
-    }
-    .beyonce-section{
-        flex-direction: column;
-    }
-    .beyonce-section p{
-        max-width: 650px;
-        width: 100%;
-        text-align: center;
-        margin: 20px auto;
-    }
-    .renaissance-img{
-        max-width: 400px;
-        width: 100%;
-        height: 550px;
-        margin: 0px auto;
-    }
-    .bruno-mars-section{
-       flex-direction: column;
-    }
-    .bruno-mars-img{
-        max-width: 350px;
-        width: 100%;
-        height: 350px;
-        margin: auto;
-    }
-    .bruno-mars-section p{
-        max-width: 650px;
-        width: 100%;
-        text-align: center;
-        margin: 20px auto;
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    padding: 10px 50px;
+  }
+  .logo {
+    width: 85px;
+    height: 100px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .text-wrapper {
+    min-height: 300px;
+  }
+  .text-wrapper h1 {
+    margin: 0px auto 30px auto;
+  }
+  .about-me {
+    flex-direction: column;
+  }
+  .text-wrapper p {
+    margin: 20px auto;
+    text-align: center;
+  }
+  .concerts {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .beyonce-section {
+    flex-direction: column;
+  }
+  .beyonce-section p {
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .renaissance-img {
+    max-width: 400px;
+    width: 100%;
+    height: 550px;
+    margin: 0px auto;
+  }
+  .bruno-mars-section {
+    flex-direction: column;
+  }
+  .bruno-mars-img {
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+    margin: auto;
+  }
+  .bruno-mars-section p {
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .coldplay-section {
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+  }
+  .coldplay-img {
+    max-width: 650px;
+    width: 100%;
+    margin: 20px auto;
+  }
+  footer {
+    width: 100%;
+    padding: 0px 30px;
+  }
+  .footer-nav-list {
+    display: none;
+  }
+  .submit-btn {
+    width: 60px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .geolab-logo {
+    width: 80px;
+    height: 100px;
+    border-radius: 5px;
+  }
 }
-    .coldplay-section{
-        max-width: 650px;
-        width: 100%;
-        margin: auto;
-}
-    .coldplay-img{
-        max-width: 650px;
-        width: 100%;
-        margin: 20px auto;
-}
-    footer{
-        width: 100%;
-        padding: 0px 30px;
-    }
-   .footer-nav-list{
-        display: none;
-    }
-    .submit-btn{
-        width: 60px;
-        border-radius: 24px;
-        font-size: 16px;
-        font-weight: 200;
-    }
-    .geolab-logo{
-        width: 80px;
-        height: 100px;
-        border-radius: 5px;
-    }
-}
-@media (max-width:500px) {
-    header{
-       width: 100%;
-       padding: 10px 30px;
-    }
-    .logo{
-        width: 60px;
-        height: 70px;
-    }
-    .nav-list{
-        display: none;
-    }
-    .burger-menu{
-        display: block;
-        width: 60px;
-        height: 70px;
-        cursor: pointer;
-    }
-    .text-wrapper h1{
-        margin: 0px auto;
-        font-size: 28px;
-    }
-    .about-me{
-        flex-direction: column;
-    }
-    .text-wrapper p{
-        margin: 20px auto;
-        max-width: 430px;
-        width: 100%;
-        text-align: center;
-        font-size: 20px;
-    }
-    .celeb-img{
-        max-width: 430px;
-        width: 100%;
-        height: 240px;
-    }
-    .concerts{
-        width: 100%;
-    }
-    .section-titles{
-        font-size: 24px;
-        line-height: 20px;
-        margin-bottom: 20px;
-    }
-    .beyonce-section{
-        flex-direction: column;
-    }
-    .beyonce-section p{
-        max-width: 430px;
-        width: 100%;
-        text-align: center;
-        font-size: 20px;
-        margin: 10px auto;
-    }
-    .renaissance-img{
-        max-width: 400px;
-        width: 100%;
-        height: 550px;
-        margin: 0px auto;
-    }
-    .bruno-mars-section{
-       flex-direction: column;
-    }
-    .bruno-mars-img{
-        max-width: 350px;
-        width: 100%;
-        height: 350px;
-        margin: auto;
-    }
-    .bruno-mars-section p{
-        max-width: 430px;
-        width: 100%;
-        text-align: center;
-        font-size: 20px;
-        margin: 10px auto;
-}
-    .coldplay-section{
-        max-width: 430px;
-        width: 100%;
-        margin: auto;
-}
-    .coldplay-section p{
-        font-size: 20px;
-    }
-    .coldplay-img{
-        max-width: 430px;
-        width: 100%;
-        height: 200px;
-        margin: 20px auto;
-}
-    footer{
-        width: 100%;
-        padding: 10px 30px;
-    }
-   .footer-nav-list{
-        display: none;
-    }
-    .submit-btn{
-        width: 50px;
-        border-radius: 24px;
-        font-size: 12px;
-        font-weight: 200;
-        margin-left: 120px;
-        margin-top: 8px;
-    }
-    .enter-email{
-        display: none;
-    }
-    .enter-email-500px{
-        display: block;
-        font-size: 16px;
-        margin-left: 40px;
-        margin-bottom: 8px;
-    }
-    .input{
-        margin-left: 20px;
-    }
-    .geolab-logo{
-        width: 50px;
-        height: 70px;
-        border-radius: 3px;
-    }
-    .footer-bottom{
-        width: 280px;
-        line-height: 20px;
-    }
-    .facebook{
-        width: 30px;
-    }
-    .instagram{
-        width: 30px;
-        margin-left: 5px;
-    }
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+    padding: 10px 30px;
+  }
+  .logo {
+    width: 60px;
+    height: 70px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .text-wrapper h1 {
+    margin: 0px auto;
+    font-size: 28px;
+  }
+  .about-me {
+    flex-direction: column;
+  }
+  .text-wrapper p {
+    margin: 20px auto;
+    max-width: 430px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  .celeb-img {
+    max-width: 430px;
+    width: 100%;
+    height: 240px;
+  }
+  .concerts {
+    width: 100%;
+  }
+  .section-titles {
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .beyonce-section {
+    flex-direction: column;
+  }
+  .beyonce-section p {
+    max-width: 430px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px auto;
+  }
+  .renaissance-img {
+    max-width: 400px;
+    width: 100%;
+    height: 550px;
+    margin: 0px auto;
+  }
+  .bruno-mars-section {
+    flex-direction: column;
+  }
+  .bruno-mars-img {
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+    margin: auto;
+  }
+  .bruno-mars-section p {
+    max-width: 430px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px auto;
+  }
+  .coldplay-section {
+    max-width: 430px;
+    width: 100%;
+    margin: auto;
+  }
+  .coldplay-section p {
+    font-size: 20px;
+  }
+  .coldplay-img {
+    max-width: 430px;
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+  }
+  footer {
+    width: 100%;
+    padding: 10px;
+  }
+  .footer-nav-list {
+    display: none;
+  }
+  .submit-btn {
+    width: 50px;
+    border-radius: 24px;
+    font-size: 12px;
+    font-weight: 200;
+    margin-left: 120px;
+    margin-top: 8px;
+  }
+  .enter-email {
+    display: none;
+  }
+  .enter-email-500px {
+    display: block;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+  }
+  .input {
+    margin-left: 20px;
+  }
+  .geolab-logo {
+    width: 50px;
+    height: 70px;
+    border-radius: 3px;
+  }
+  .footer-bottom {
+    width: 280px;
+    line-height: 20px;
+  }
+  .facebook {
+    width: 30px;
+  }
+  .instagram {
+    width: 30px;
+    margin-left: 5px;
+  }
 }
